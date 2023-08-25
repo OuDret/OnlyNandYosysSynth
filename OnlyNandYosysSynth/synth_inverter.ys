@@ -1,0 +1,30 @@
+read -sv inverter.v
+hierarchy -top inverter
+
+#check obious problems in the current design 8combinatorila loops, conflicts, etc.
+check;
+
+#opt_clean with less verbose
+clean;
+
+# translate processes to netlists
+proc;
+
+#extract and optimize finite state machines
+fsm; opt;
+
+#translate memories to basic cells
+memory; opt;
+
+techmap
+synth
+abc -liberty cells.lib
+techmap -map all2nand.v
+dfflibmap -liberty cells.lib
+
+#functional reduction
+freduce;
+opt_clean;
+
+write_verilog output/synth_inverter.v
+show -format svg -prefix output/inverter_netlist.v

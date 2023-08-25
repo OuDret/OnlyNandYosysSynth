@@ -1,0 +1,37 @@
+$date
+	Wed Aug 23 20:41:56 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module NAND_tb $end
+$var reg 1 ! A $end
+$upscope $end
+$scope module NAND_tb $end
+$var reg 1 " B $end
+$upscope $end
+$scope module NAND_tb $end
+$var wire 1 # Y $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0#
+1"
+1!
+$end
+#50
+1#
+0"
+#100
+1"
+0!
+#150
+0"
+#200

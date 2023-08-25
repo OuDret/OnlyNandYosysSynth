@@ -1,0 +1,33 @@
+read -sv counter.v
+hierarchy -top counter
+
+#check obious problems in the current design 8combinatorila loops, conflicts, etc.
+check;
+
+#opt_clean with less verbose
+clean;
+
+# translate processes to netlists
+proc;
+
+#extract and optimize finite state machines
+fsm; opt;
+
+#translate memories to basic cells
+memory; opt;
+
+
+techmap;
+synth
+dfflibmap -liberty cells.lib
+abc -liberty cells.lib
+techmap -map all2nand.v
+
+#functional reduction
+freduce;
+opt_clean;
+
+check
+
+write_verilog output/synth_counter.v
+show -format svg -prefix output/counter_netlist

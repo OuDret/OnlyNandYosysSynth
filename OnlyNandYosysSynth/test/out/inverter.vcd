@@ -1,0 +1,40 @@
+$date
+	Fri Aug 25 10:02:10 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module inverter_tb $end
+$scope module inv $end
+$var wire 1 ! in $end
+$var wire 1 " out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x"
+1!
+$end
+#1
+0"
+#50
+0!
+#51
+1"
+#100
+1!
+#101
+0"
+#150
+0!
+#151
+1"
+#200
+1!

@@ -1,0 +1,16 @@
+read_verilog counter.v
+prep -flatten -top counter
+splitnets -ports;
+design -stash gold
+read_verilog output/synth_counter.v
+read_verilog all2nand.v
+prep -flatten -top counter
+splitnets -ports;
+design -stash gate
+design -copy-from gold -as gold counter
+design -copy-from gate -as gate counter
+equiv_make gold gate equiv
+hierarchy -top equiv
+clean -purge; show
+equiv_simple
+equiv_status -assert
