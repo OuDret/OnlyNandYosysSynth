@@ -20,156 +20,76 @@ module counter(clk, rst, count);
   wire _013_;
   (* src = "counter.v:7|all2nand.v:18" *)
   wire _014_;
-  (* src = "counter.v:7|all2nand.v:21" *)
+  (* src = "counter.v:7|all2nand.v:17" *)
   wire _015_;
-  (* src = "counter.v:7|all2nand.v:24" *)
+  (* src = "counter.v:7|all2nand.v:19" *)
   wire _016_;
-  (* src = "counter.v:7|all2nand.v:24" *)
+  (* src = "counter.v:7|all2nand.v:20" *)
   wire _017_;
-  (* src = "counter.v:7|all2nand.v:22" *)
+  (* src = "counter.v:7|all2nand.v:21" *)
   wire _018_;
-  (* src = "counter.v:7|all2nand.v:15" *)
+  (* src = "counter.v:7|all2nand.v:24" *)
   wire _019_;
-  (* src = "counter.v:7|all2nand.v:16" *)
+  (* src = "counter.v:7|all2nand.v:22" *)
   wire _020_;
-  (* src = "counter.v:7|all2nand.v:26" *)
+  (* src = "counter.v:7|all2nand.v:23" *)
   wire _021_;
-  (* src = "counter.v:7|all2nand.v:26" *)
+  (* src = "counter.v:7|all2nand.v:15" *)
   wire _022_;
-  (* src = "counter.v:7|all2nand.v:26" *)
+  (* src = "counter.v:7|all2nand.v:18" *)
   wire _023_;
-  (* src = "counter.v:7|all2nand.v:26" *)
+  (* src = "counter.v:7|all2nand.v:17" *)
   wire _024_;
-  (* src = "counter.v:7|all2nand.v:27" *)
+  (* src = "counter.v:7|all2nand.v:19" *)
   wire _025_;
-  (* src = "counter.v:7|all2nand.v:27" *)
+  (* src = "counter.v:7|all2nand.v:20" *)
   wire _026_;
-  (* src = "counter.v:7|all2nand.v:27" *)
+  (* src = "counter.v:7|all2nand.v:21" *)
   wire _027_;
-  (* src = "counter.v:7|all2nand.v:27" *)
+  (* src = "counter.v:7|all2nand.v:24" *)
   wire _028_;
-  (* src = "counter.v:7|all2nand.v:17" *)
+  (* src = "counter.v:7|all2nand.v:22" *)
   wire _029_;
-  (* src = "counter.v:7|all2nand.v:24" *)
+  (* src = "counter.v:7|all2nand.v:23" *)
   wire _030_;
-  (* src = "counter.v:7|all2nand.v:25" *)
+  (* src = "counter.v:7|all2nand.v:15" *)
   wire _031_;
-  (* src = "counter.v:7|all2nand.v:25" *)
+  (* src = "counter.v:7|all2nand.v:18" *)
   wire _032_;
-  (* src = "counter.v:7|all2nand.v:18" *)
+  (* src = "counter.v:7|all2nand.v:17" *)
   wire _033_;
-  (* src = "counter.v:7|all2nand.v:21" *)
+  (* src = "counter.v:7|all2nand.v:19" *)
   wire _034_;
-  (* src = "counter.v:7|all2nand.v:24" *)
+  (* src = "counter.v:7|all2nand.v:20" *)
   wire _035_;
-  (* src = "counter.v:7|all2nand.v:24" *)
+  (* src = "counter.v:7|all2nand.v:21" *)
   wire _036_;
-  (* src = "counter.v:7|all2nand.v:22" *)
+  (* src = "counter.v:7|all2nand.v:24" *)
   wire _037_;
-  (* src = "counter.v:7|all2nand.v:15" *)
+  (* src = "counter.v:7|all2nand.v:22" *)
   wire _038_;
-  (* src = "counter.v:7|all2nand.v:16" *)
+  (* src = "counter.v:7|all2nand.v:23" *)
   wire _039_;
-  (* src = "counter.v:7|all2nand.v:26" *)
+  (* src = "counter.v:7|all2nand.v:15" *)
   wire _040_;
-  (* src = "counter.v:7|all2nand.v:26" *)
+  (* src = "counter.v:7|all2nand.v:18" *)
   wire _041_;
-  (* src = "counter.v:7|all2nand.v:26" *)
+  (* src = "counter.v:7|all2nand.v:17" *)
   wire _042_;
-  (* src = "counter.v:7|all2nand.v:26" *)
+  (* src = "counter.v:7|all2nand.v:19" *)
   wire _043_;
-  (* src = "counter.v:7|all2nand.v:27" *)
+  (* src = "counter.v:7|all2nand.v:20" *)
   wire _044_;
-  (* src = "counter.v:7|all2nand.v:27" *)
+  (* src = "counter.v:7|all2nand.v:21" *)
   wire _045_;
-  (* src = "counter.v:7|all2nand.v:27" *)
+  (* src = "counter.v:7|all2nand.v:24" *)
   wire _046_;
-  (* src = "counter.v:7|all2nand.v:27" *)
+  (* src = "counter.v:7|all2nand.v:22" *)
   wire _047_;
-  (* src = "counter.v:7|all2nand.v:17" *)
+  (* src = "counter.v:7|all2nand.v:23" *)
   wire _048_;
-  (* src = "counter.v:7|all2nand.v:24" *)
+  (* src = "counter.v:7|all2nand.v:15" *)
   wire _049_;
-  (* src = "counter.v:7|all2nand.v:25" *)
-  wire _050_;
-  (* src = "counter.v:7|all2nand.v:25" *)
-  wire _051_;
-  (* src = "counter.v:7|all2nand.v:18" *)
-  wire _052_;
-  (* src = "counter.v:7|all2nand.v:21" *)
-  wire _053_;
-  (* src = "counter.v:7|all2nand.v:24" *)
-  wire _054_;
-  (* src = "counter.v:7|all2nand.v:24" *)
-  wire _055_;
-  (* src = "counter.v:7|all2nand.v:22" *)
-  wire _056_;
-  (* src = "counter.v:7|all2nand.v:15" *)
-  wire _057_;
-  (* src = "counter.v:7|all2nand.v:16" *)
-  wire _058_;
-  (* src = "counter.v:7|all2nand.v:26" *)
-  wire _059_;
-  (* src = "counter.v:7|all2nand.v:26" *)
-  wire _060_;
-  (* src = "counter.v:7|all2nand.v:26" *)
-  wire _061_;
-  (* src = "counter.v:7|all2nand.v:26" *)
-  wire _062_;
-  (* src = "counter.v:7|all2nand.v:27" *)
-  wire _063_;
-  (* src = "counter.v:7|all2nand.v:27" *)
-  wire _064_;
-  (* src = "counter.v:7|all2nand.v:27" *)
-  wire _065_;
-  (* src = "counter.v:7|all2nand.v:27" *)
-  wire _066_;
-  (* src = "counter.v:7|all2nand.v:17" *)
-  wire _067_;
-  (* src = "counter.v:7|all2nand.v:24" *)
-  wire _068_;
-  (* src = "counter.v:7|all2nand.v:25" *)
-  wire _069_;
-  (* src = "counter.v:7|all2nand.v:25" *)
-  wire _070_;
-  (* src = "counter.v:7|all2nand.v:18" *)
-  wire _071_;
-  (* src = "counter.v:7|all2nand.v:21" *)
-  wire _072_;
-  (* src = "counter.v:7|all2nand.v:24" *)
-  wire _073_;
-  (* src = "counter.v:7|all2nand.v:24" *)
-  wire _074_;
-  (* src = "counter.v:7|all2nand.v:22" *)
-  wire _075_;
-  (* src = "counter.v:7|all2nand.v:15" *)
-  wire _076_;
-  (* src = "counter.v:7|all2nand.v:16" *)
-  wire _077_;
-  (* src = "counter.v:7|all2nand.v:26" *)
-  wire _078_;
-  (* src = "counter.v:7|all2nand.v:26" *)
-  wire _079_;
-  (* src = "counter.v:7|all2nand.v:26" *)
-  wire _080_;
-  (* src = "counter.v:7|all2nand.v:26" *)
-  wire _081_;
-  (* src = "counter.v:7|all2nand.v:27" *)
-  wire _082_;
-  (* src = "counter.v:7|all2nand.v:27" *)
-  wire _083_;
-  (* src = "counter.v:7|all2nand.v:27" *)
-  wire _084_;
-  (* src = "counter.v:7|all2nand.v:27" *)
-  wire _085_;
-  (* src = "counter.v:7|all2nand.v:17" *)
-  wire _086_;
-  (* src = "counter.v:7|all2nand.v:24" *)
-  wire _087_;
-  (* src = "counter.v:7|all2nand.v:25" *)
-  wire _088_;
-  (* src = "counter.v:7|all2nand.v:25" *)
-  wire _089_;
   (* src = "counter.v:2" *)
   input clk;
   (* src = "counter.v:4" *)
@@ -178,663 +98,383 @@ module counter(clk, rst, count);
   input rst;
   (* module_not_derived = 32'd1 *)
   (* src = "all2nand.v:3" *)
-  NAND _090_ (
+  NAND _050_ (
     .A(count[1]),
     .B(count[1]),
     .Y(_013_)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "all2nand.v:3" *)
-  NAND _091_ (
+  NAND _051_ (
     .A(count[0]),
     .B(count[0]),
     .Y(_000_[0])
   );
   (* module_not_derived = 32'd1 *)
   (* src = "all2nand.v:3" *)
-  NAND _092_ (
+  NAND _052_ (
     .A(count[2]),
     .B(count[2]),
     .Y(_001_)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "all2nand.v:3" *)
-  NAND _093_ (
+  NAND _053_ (
     .A(count[3]),
     .B(count[3]),
     .Y(_002_)
   );
-  NAND _094_ (
+  NAND _054_ (
     .A(count[1]),
     .B(count[0]),
     .Y(_003_)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "all2nand.v:3" *)
-  NAND _095_ (
+  NAND _055_ (
     .A(_003_),
     .B(_003_),
     .Y(_004_)
   );
-  NAND _096_ (
+  NAND _056_ (
     .A(_013_),
     .B(_000_[0]),
     .Y(_005_)
   );
-  NAND _097_ (
+  NAND _057_ (
     .A(_003_),
     .B(_005_),
     .Y(_006_)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "all2nand.v:3" *)
-  NAND _098_ (
+  NAND _058_ (
     .A(_006_),
     .B(_006_),
     .Y(_000_[1])
   );
-  NAND _099_ (
+  NAND _059_ (
     .A(count[2]),
     .B(_004_),
     .Y(_007_)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "all2nand.v:3" *)
-  NAND _100_ (
+  NAND _060_ (
     .A(_007_),
     .B(_007_),
     .Y(_008_)
   );
-  NAND _101_ (
+  NAND _061_ (
     .A(_001_),
     .B(_003_),
     .Y(_009_)
   );
-  NAND _102_ (
+  NAND _062_ (
     .A(_007_),
     .B(_009_),
     .Y(_010_)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "all2nand.v:3" *)
-  NAND _103_ (
+  NAND _063_ (
     .A(_010_),
     .B(_010_),
     .Y(_000_[2])
   );
-  NAND _104_ (
+  NAND _064_ (
     .A(count[3]),
     .B(_007_),
     .Y(_011_)
   );
-  NAND _105_ (
+  NAND _065_ (
     .A(_002_),
     .B(_008_),
     .Y(_012_)
   );
-  NAND _106_ (
+  NAND _066_ (
     .A(_011_),
     .B(_012_),
     .Y(_000_[3])
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:53|all2nand.v:3" *)
-  NAND _107_ (
-    .A(_018_),
-    .B(_018_),
-    .Y(_029_)
+  (* src = "counter.v:7|all2nand.v:26|all2nand.v:3" *)
+  NAND _067_ (
+    .A(rst),
+    .B(rst),
+    .Y(_022_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:39|all2nand.v:3" *)
-  NAND _108_ (
+  (* src = "counter.v:7|all2nand.v:27" *)
+  NAND _068_ (
+    .A(_022_),
+    .B(clk),
+    .Y(_014_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:28" *)
+  NAND _069_ (
+    .A(_000_[0]),
+    .B(_020_),
+    .Y(_015_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:29" *)
+  NAND _070_ (
+    .A(_015_),
+    .B(_021_),
+    .Y(_016_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:30" *)
+  NAND _071_ (
+    .A(_016_),
+    .B(_022_),
+    .Y(_017_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:31" *)
+  NAND _072_ (
+    .A(_017_),
+    .B(_017_),
+    .Y(_018_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:32" *)
+  NAND _073_ (
+    .A(_017_),
+    .B(_014_),
+    .Y(_020_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:33" *)
+  NAND _074_ (
+    .A(_018_),
+    .B(_014_),
+    .Y(_021_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:34" *)
+  NAND _075_ (
+    .A(_020_),
+    .B(count[0]),
+    .Y(_019_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:35" *)
+  NAND _076_ (
+    .A(_021_),
+    .B(_019_),
+    .Y(count[0])
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:26|all2nand.v:3" *)
+  NAND _077_ (
+    .A(rst),
+    .B(rst),
+    .Y(_031_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:27" *)
+  NAND _078_ (
+    .A(_031_),
+    .B(clk),
+    .Y(_023_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:28" *)
+  NAND _079_ (
+    .A(_000_[1]),
+    .B(_029_),
+    .Y(_024_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:29" *)
+  NAND _080_ (
+    .A(_024_),
+    .B(_030_),
+    .Y(_025_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:30" *)
+  NAND _081_ (
     .A(_025_),
-    .B(_025_),
+    .B(_031_),
     .Y(_026_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:40|all2nand.v:3" *)
-  NAND _109_ (
+  (* src = "counter.v:7|all2nand.v:31" *)
+  NAND _082_ (
     .A(_026_),
     .B(_026_),
     .Y(_027_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:41|all2nand.v:3" *)
-  NAND _110_ (
-    .A(_027_),
-    .B(_027_),
-    .Y(_028_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:43|all2nand.v:3" *)
-  NAND _111_ (
-    .A(_031_),
-    .B(_031_),
-    .Y(_032_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:47|all2nand.v:3" *)
-  NAND _112_ (
-    .A(_015_),
-    .B(_015_),
-    .Y(_018_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:30|all2nand.v:3" *)
-  NAND _113_ (
-    .A(clk),
-    .B(clk),
-    .Y(_021_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:31|all2nand.v:3" *)
-  NAND _114_ (
-    .A(_021_),
-    .B(_021_),
-    .Y(_022_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:32|all2nand.v:3" *)
-  NAND _115_ (
-    .A(_022_),
-    .B(_022_),
-    .Y(_023_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:34|all2nand.v:3" *)
-  NAND _116_ (
-    .A(_030_),
-    .B(_030_),
-    .Y(_016_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:37|all2nand.v:3" *)
-  NAND _117_ (
-    .A(rst),
-    .B(rst),
-    .Y(_024_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:38|all2nand.v:3" *)
-  NAND _118_ (
-    .A(_024_),
-    .B(_024_),
-    .Y(_025_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:54" *)
-  NAND _119_ (
-    .A(_017_),
-    .B(_018_),
-    .Y(_019_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:55" *)
-  NAND _120_ (
-    .A(_017_),
-    .B(_029_),
-    .Y(_020_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:56" *)
-  NAND _121_ (
-    .A(_019_),
-    .B(_014_),
-    .Y(count[0])
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:57" *)
-  NAND _122_ (
-    .A(_020_),
-    .B(count[0]),
-    .Y(_014_)
+  (* src = "counter.v:7|all2nand.v:32" *)
+  NAND _083_ (
+    .A(_026_),
+    .B(_023_),
+    .Y(_029_)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "counter.v:7|all2nand.v:33" *)
-  NAND _123_ (
-    .A(_023_),
-    .B(clk),
+  NAND _084_ (
+    .A(_027_),
+    .B(_023_),
     .Y(_030_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:42" *)
-  NAND _124_ (
-    .A(_028_),
+  (* src = "counter.v:7|all2nand.v:34" *)
+  NAND _085_ (
+    .A(_029_),
+    .B(count[1]),
+    .Y(_028_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:35" *)
+  NAND _086_ (
+    .A(_030_),
+    .B(_028_),
+    .Y(count[1])
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:26|all2nand.v:3" *)
+  NAND _087_ (
+    .A(rst),
     .B(rst),
-    .Y(_031_)
+    .Y(_040_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:46" *)
-  NAND _125_ (
-    .A(_031_),
-    .B(_000_[0]),
-    .Y(_015_)
+  (* src = "counter.v:7|all2nand.v:27" *)
+  NAND _088_ (
+    .A(_040_),
+    .B(clk),
+    .Y(_032_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:50" *)
-  NAND _126_ (
-    .A(_031_),
-    .B(_030_),
-    .Y(_017_)
+  (* src = "counter.v:7|all2nand.v:28" *)
+  NAND _089_ (
+    .A(_000_[2]),
+    .B(_038_),
+    .Y(_033_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:53|all2nand.v:3" *)
-  NAND _127_ (
-    .A(_037_),
+  (* src = "counter.v:7|all2nand.v:29" *)
+  NAND _090_ (
+    .A(_033_),
+    .B(_039_),
+    .Y(_034_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:30" *)
+  NAND _091_ (
+    .A(_034_),
+    .B(_040_),
+    .Y(_035_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:31" *)
+  NAND _092_ (
+    .A(_035_),
+    .B(_035_),
+    .Y(_036_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:32" *)
+  NAND _093_ (
+    .A(_035_),
+    .B(_032_),
+    .Y(_038_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:33" *)
+  NAND _094_ (
+    .A(_036_),
+    .B(_032_),
+    .Y(_039_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:34" *)
+  NAND _095_ (
+    .A(_038_),
+    .B(count[2]),
+    .Y(_037_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:35" *)
+  NAND _096_ (
+    .A(_039_),
     .B(_037_),
-    .Y(_048_)
+    .Y(count[2])
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:39|all2nand.v:3" *)
-  NAND _128_ (
+  (* src = "counter.v:7|all2nand.v:26|all2nand.v:3" *)
+  NAND _097_ (
+    .A(rst),
+    .B(rst),
+    .Y(_049_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:27" *)
+  NAND _098_ (
+    .A(_049_),
+    .B(clk),
+    .Y(_041_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:28" *)
+  NAND _099_ (
+    .A(_000_[3]),
+    .B(_047_),
+    .Y(_042_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:29" *)
+  NAND _100_ (
+    .A(_042_),
+    .B(_048_),
+    .Y(_043_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:30" *)
+  NAND _101_ (
+    .A(_043_),
+    .B(_049_),
+    .Y(_044_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter.v:7|all2nand.v:31" *)
+  NAND _102_ (
     .A(_044_),
     .B(_044_),
     .Y(_045_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:40|all2nand.v:3" *)
-  NAND _129_ (
-    .A(_045_),
-    .B(_045_),
-    .Y(_046_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:41|all2nand.v:3" *)
-  NAND _130_ (
-    .A(_046_),
-    .B(_046_),
+  (* src = "counter.v:7|all2nand.v:32" *)
+  NAND _103_ (
+    .A(_044_),
+    .B(_041_),
     .Y(_047_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:43|all2nand.v:3" *)
-  NAND _131_ (
-    .A(_050_),
-    .B(_050_),
-    .Y(_051_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:47|all2nand.v:3" *)
-  NAND _132_ (
-    .A(_034_),
-    .B(_034_),
-    .Y(_037_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:30|all2nand.v:3" *)
-  NAND _133_ (
-    .A(clk),
-    .B(clk),
-    .Y(_040_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:31|all2nand.v:3" *)
-  NAND _134_ (
-    .A(_040_),
-    .B(_040_),
-    .Y(_041_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:32|all2nand.v:3" *)
-  NAND _135_ (
-    .A(_041_),
+  (* src = "counter.v:7|all2nand.v:33" *)
+  NAND _104_ (
+    .A(_045_),
     .B(_041_),
-    .Y(_042_)
+    .Y(_048_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:34|all2nand.v:3" *)
-  NAND _136_ (
-    .A(_049_),
-    .B(_049_),
-    .Y(_035_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:37|all2nand.v:3" *)
-  NAND _137_ (
-    .A(rst),
-    .B(rst),
-    .Y(_043_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:38|all2nand.v:3" *)
-  NAND _138_ (
-    .A(_043_),
-    .B(_043_),
-    .Y(_044_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:54" *)
-  NAND _139_ (
-    .A(_036_),
-    .B(_037_),
-    .Y(_038_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:55" *)
-  NAND _140_ (
-    .A(_036_),
-    .B(_048_),
-    .Y(_039_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:56" *)
-  NAND _141_ (
-    .A(_038_),
-    .B(_033_),
-    .Y(count[1])
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:57" *)
-  NAND _142_ (
-    .A(_039_),
-    .B(count[1]),
-    .Y(_033_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:33" *)
-  NAND _143_ (
-    .A(_042_),
-    .B(clk),
-    .Y(_049_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:42" *)
-  NAND _144_ (
+  (* src = "counter.v:7|all2nand.v:34" *)
+  NAND _105_ (
     .A(_047_),
-    .B(rst),
-    .Y(_050_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:46" *)
-  NAND _145_ (
-    .A(_050_),
-    .B(_000_[1]),
-    .Y(_034_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:50" *)
-  NAND _146_ (
-    .A(_050_),
-    .B(_049_),
-    .Y(_036_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:53|all2nand.v:3" *)
-  NAND _147_ (
-    .A(_056_),
-    .B(_056_),
-    .Y(_067_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:39|all2nand.v:3" *)
-  NAND _148_ (
-    .A(_063_),
-    .B(_063_),
-    .Y(_064_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:40|all2nand.v:3" *)
-  NAND _149_ (
-    .A(_064_),
-    .B(_064_),
-    .Y(_065_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:41|all2nand.v:3" *)
-  NAND _150_ (
-    .A(_065_),
-    .B(_065_),
-    .Y(_066_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:43|all2nand.v:3" *)
-  NAND _151_ (
-    .A(_069_),
-    .B(_069_),
-    .Y(_070_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:47|all2nand.v:3" *)
-  NAND _152_ (
-    .A(_053_),
-    .B(_053_),
-    .Y(_056_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:30|all2nand.v:3" *)
-  NAND _153_ (
-    .A(clk),
-    .B(clk),
-    .Y(_059_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:31|all2nand.v:3" *)
-  NAND _154_ (
-    .A(_059_),
-    .B(_059_),
-    .Y(_060_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:32|all2nand.v:3" *)
-  NAND _155_ (
-    .A(_060_),
-    .B(_060_),
-    .Y(_061_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:34|all2nand.v:3" *)
-  NAND _156_ (
-    .A(_068_),
-    .B(_068_),
-    .Y(_054_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:37|all2nand.v:3" *)
-  NAND _157_ (
-    .A(rst),
-    .B(rst),
-    .Y(_062_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:38|all2nand.v:3" *)
-  NAND _158_ (
-    .A(_062_),
-    .B(_062_),
-    .Y(_063_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:54" *)
-  NAND _159_ (
-    .A(_055_),
-    .B(_056_),
-    .Y(_057_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:55" *)
-  NAND _160_ (
-    .A(_055_),
-    .B(_067_),
-    .Y(_058_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:56" *)
-  NAND _161_ (
-    .A(_057_),
-    .B(_052_),
-    .Y(count[2])
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:57" *)
-  NAND _162_ (
-    .A(_058_),
-    .B(count[2]),
-    .Y(_052_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:33" *)
-  NAND _163_ (
-    .A(_061_),
-    .B(clk),
-    .Y(_068_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:42" *)
-  NAND _164_ (
-    .A(_066_),
-    .B(rst),
-    .Y(_069_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:46" *)
-  NAND _165_ (
-    .A(_069_),
-    .B(_000_[2]),
-    .Y(_053_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:50" *)
-  NAND _166_ (
-    .A(_069_),
-    .B(_068_),
-    .Y(_055_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:53|all2nand.v:3" *)
-  NAND _167_ (
-    .A(_075_),
-    .B(_075_),
-    .Y(_086_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:39|all2nand.v:3" *)
-  NAND _168_ (
-    .A(_082_),
-    .B(_082_),
-    .Y(_083_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:40|all2nand.v:3" *)
-  NAND _169_ (
-    .A(_083_),
-    .B(_083_),
-    .Y(_084_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:41|all2nand.v:3" *)
-  NAND _170_ (
-    .A(_084_),
-    .B(_084_),
-    .Y(_085_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:43|all2nand.v:3" *)
-  NAND _171_ (
-    .A(_088_),
-    .B(_088_),
-    .Y(_089_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:47|all2nand.v:3" *)
-  NAND _172_ (
-    .A(_072_),
-    .B(_072_),
-    .Y(_075_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:30|all2nand.v:3" *)
-  NAND _173_ (
-    .A(clk),
-    .B(clk),
-    .Y(_078_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:31|all2nand.v:3" *)
-  NAND _174_ (
-    .A(_078_),
-    .B(_078_),
-    .Y(_079_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:32|all2nand.v:3" *)
-  NAND _175_ (
-    .A(_079_),
-    .B(_079_),
-    .Y(_080_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:34|all2nand.v:3" *)
-  NAND _176_ (
-    .A(_087_),
-    .B(_087_),
-    .Y(_073_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:37|all2nand.v:3" *)
-  NAND _177_ (
-    .A(rst),
-    .B(rst),
-    .Y(_081_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:38|all2nand.v:3" *)
-  NAND _178_ (
-    .A(_081_),
-    .B(_081_),
-    .Y(_082_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:54" *)
-  NAND _179_ (
-    .A(_074_),
-    .B(_075_),
-    .Y(_076_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:55" *)
-  NAND _180_ (
-    .A(_074_),
-    .B(_086_),
-    .Y(_077_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:56" *)
-  NAND _181_ (
-    .A(_076_),
-    .B(_071_),
-    .Y(count[3])
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:57" *)
-  NAND _182_ (
-    .A(_077_),
     .B(count[3]),
-    .Y(_071_)
+    .Y(_046_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:33" *)
-  NAND _183_ (
-    .A(_080_),
-    .B(clk),
-    .Y(_087_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:42" *)
-  NAND _184_ (
-    .A(_085_),
-    .B(rst),
-    .Y(_088_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:46" *)
-  NAND _185_ (
-    .A(_088_),
-    .B(_000_[3]),
-    .Y(_072_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter.v:7|all2nand.v:50" *)
-  NAND _186_ (
-    .A(_088_),
-    .B(_087_),
-    .Y(_074_)
+  (* src = "counter.v:7|all2nand.v:35" *)
+  NAND _106_ (
+    .A(_048_),
+    .B(_046_),
+    .Y(count[3])
   );
 endmodule

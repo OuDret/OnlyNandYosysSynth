@@ -1,5 +1,5 @@
 $date
-	Fri Aug 25 11:59:18 2023
+	Tue Aug 29 16:03:16 2023
 $end
 $version
 	Icarus Verilog
@@ -24,173 +24,69 @@ $scope module u1 $end
 $var wire 1 ! C $end
 $var wire 1 " D $end
 $var wire 1 # R $end
-$var wire 1 % reset_edge $end
-$var wire 1 & not_reset_edge $end
-$var wire 1 ' not_clock_edge $end
-$var wire 1 ( not_D $end
-$var wire 1 ) not_8 $end
-$var wire 1 * not_7 $end
-$var wire 1 + not_6 $end
-$var wire 1 , not_5 $end
-$var wire 1 - not_4 $end
-$var wire 1 . not_3 $end
-$var wire 1 / not_2 $end
-$var wire 1 0 not_1 $end
-$var wire 1 1 nand2_out $end
-$var wire 1 2 nand1_out $end
-$var wire 1 3 in $end
-$var wire 1 4 clock_edge_or_reset $end
-$var wire 1 5 clock_edge $end
-$var wire 1 6 and_R $end
-$var wire 1 7 QBAR $end
+$var wire 1 % not_R $end
+$var wire 1 & nand_dff_2 $end
+$var wire 1 ' nand_dff_1 $end
+$var wire 1 ( nand_QBAR $end
+$var wire 1 ) nand_3 $end
+$var wire 1 * nand_2 $end
+$var wire 1 + nand_1 $end
 $var wire 1 $ Q $end
-$scope module n1 $end
-$var wire 1 ( Y $end
-$var wire 1 3 A $end
+$var wire 1 , D_nand_Feedback $end
+$var wire 1 - C_nand_not_R $end
+$scope module u0 $end
+$var wire 1 # A $end
+$var wire 1 % Y $end
 $scope module u1 $end
-$var wire 1 ( Y $end
-$var wire 1 3 B $end
-$var wire 1 3 A $end
+$var wire 1 # A $end
+$var wire 1 # B $end
+$var wire 1 % Y $end
 $upscope $end
 $upscope $end
-$scope module n10 $end
-$var wire 1 + Y $end
+$scope module u1 $end
+$var wire 1 % A $end
+$var wire 1 ! B $end
+$var wire 1 - Y $end
+$upscope $end
+$scope module u2 $end
+$var wire 1 " A $end
+$var wire 1 , Y $end
+$var wire 1 ' B $end
+$upscope $end
+$scope module u3 $end
 $var wire 1 , A $end
-$scope module u1 $end
 $var wire 1 + Y $end
-$var wire 1 , B $end
-$var wire 1 , A $end
+$var wire 1 & B $end
 $upscope $end
-$upscope $end
-$scope module n11 $end
+$scope module u4 $end
 $var wire 1 + A $end
-$var wire 1 * Y $end
-$scope module u1 $end
-$var wire 1 + A $end
-$var wire 1 + B $end
+$var wire 1 % B $end
 $var wire 1 * Y $end
 $upscope $end
-$upscope $end
-$scope module n12 $end
-$var wire 1 * A $end
-$var wire 1 ) Y $end
-$scope module u1 $end
+$scope module u5 $end
 $var wire 1 * A $end
 $var wire 1 * B $end
 $var wire 1 ) Y $end
 $upscope $end
-$upscope $end
-$scope module n13 $end
-$var wire 1 % Y $end
-$var wire 1 & A $end
-$scope module u1 $end
-$var wire 1 % Y $end
-$var wire 1 & B $end
-$var wire 1 & A $end
-$upscope $end
-$upscope $end
-$scope module n14 $end
-$var wire 1 3 Y $end
-$var wire 1 6 A $end
-$scope module u1 $end
-$var wire 1 3 Y $end
-$var wire 1 6 B $end
-$var wire 1 6 A $end
-$upscope $end
-$upscope $end
-$scope module n3 $end
-$var wire 1 ! A $end
-$var wire 1 0 Y $end
-$scope module u1 $end
-$var wire 1 ! A $end
-$var wire 1 ! B $end
-$var wire 1 0 Y $end
-$upscope $end
-$upscope $end
-$scope module n4 $end
-$var wire 1 0 A $end
-$var wire 1 / Y $end
-$scope module u1 $end
-$var wire 1 0 A $end
-$var wire 1 0 B $end
-$var wire 1 / Y $end
-$upscope $end
-$upscope $end
-$scope module n5 $end
-$var wire 1 / A $end
-$var wire 1 . Y $end
-$scope module u1 $end
-$var wire 1 / A $end
-$var wire 1 / B $end
-$var wire 1 . Y $end
-$upscope $end
-$upscope $end
-$scope module n7 $end
-$var wire 1 5 Y $end
-$var wire 1 ' A $end
-$scope module u1 $end
-$var wire 1 5 Y $end
-$var wire 1 ' B $end
-$var wire 1 ' A $end
-$upscope $end
-$upscope $end
-$scope module n8 $end
-$var wire 1 # A $end
-$var wire 1 - Y $end
-$scope module u1 $end
-$var wire 1 # A $end
-$var wire 1 # B $end
-$var wire 1 - Y $end
-$upscope $end
-$upscope $end
-$scope module n9 $end
-$var wire 1 - A $end
-$var wire 1 , Y $end
-$scope module u1 $end
-$var wire 1 - A $end
+$scope module u6 $end
+$var wire 1 * A $end
 $var wire 1 - B $end
-$var wire 1 , Y $end
-$upscope $end
-$upscope $end
-$scope module u1 $end
-$var wire 1 3 B $end
-$var wire 1 2 Y $end
-$var wire 1 4 A $end
-$upscope $end
-$scope module u2 $end
-$var wire 1 ( B $end
-$var wire 1 1 Y $end
-$var wire 1 4 A $end
-$upscope $end
-$scope module u3 $end
-$var wire 1 2 A $end
-$var wire 1 $ Y $end
-$var wire 1 7 B $end
-$upscope $end
-$scope module u4 $end
-$var wire 1 1 A $end
-$var wire 1 $ B $end
-$var wire 1 7 Y $end
-$upscope $end
-$scope module u5 $end
-$var wire 1 . A $end
-$var wire 1 ! B $end
 $var wire 1 ' Y $end
 $upscope $end
-$scope module u6 $end
+$scope module u7 $end
 $var wire 1 ) A $end
-$var wire 1 # B $end
+$var wire 1 - B $end
 $var wire 1 & Y $end
 $upscope $end
-$scope module u7 $end
-$var wire 1 & A $end
-$var wire 1 " B $end
-$var wire 1 6 Y $end
-$upscope $end
 $scope module u8 $end
+$var wire 1 ' A $end
+$var wire 1 ( Y $end
+$var wire 1 $ B $end
+$upscope $end
+$scope module u9 $end
 $var wire 1 & A $end
-$var wire 1 ' B $end
-$var wire 1 4 Y $end
+$var wire 1 ( B $end
+$var wire 1 $ Y $end
 $upscope $end
 $upscope $end
 $upscope $end
@@ -200,16 +96,6 @@ $dumpall
 $end
 #0
 $dumpvars
-x7
-x6
-x5
-x4
-x3
-x2
-x1
-x0
-x/
-x.
 x-
 x,
 x+
@@ -225,1211 +111,548 @@ x$
 0!
 $end
 #1
-1&
-1'
 1-
-10
-#2
-06
-0%
-04
-05
-0,
-0/
-#3
-13
-11
-12
-1+
-1.
-#4
-0(
-0*
-#5
-1)
+1%
 #50
 1!
 #51
-00
-0'
+0-
 #52
-1/
-14
-15
-#53
-0.
-02
-#54
 1'
-1$
+1&
+#53
+0,
+#54
+1+
 #55
-04
-05
-07
+0*
 #56
-12
+1)
 #100
 0!
 #101
-10
+1-
 #102
-0/
+0&
 #103
-1.
+1$
+#104
+0(
 #130
 0"
 #131
-16
-#132
-03
-#133
-1(
+1,
 #150
 1!
 #151
-00
-0'
+0-
 #152
-1/
-14
-15
+1&
 #153
-0.
-01
+0+
 #154
-1'
-17
+1*
 #155
-04
-05
-0$
-#156
-11
+0)
 #200
 0!
 #201
-10
+1-
 #202
-0/
+0'
 #203
-1.
+1(
+#204
+0$
 #250
 1!
 #251
-00
-0'
+0-
 #252
-1/
-14
-15
-#253
-0.
-01
-#254
 1'
-#255
-04
-05
-#256
-11
 #300
 0!
 #301
-10
+1-
 #302
-0/
-#303
-1.
+0'
 #350
 1!
 #351
-00
-0'
+0-
 #352
-1/
-14
-15
-#353
-0.
-01
-#354
 1'
-#355
-04
-05
-#356
-11
 #400
 0!
 #401
-10
+1-
 #402
-0/
-#403
-1.
+0'
 #450
 1!
 #451
-00
-0'
+0-
 #452
-1/
-14
-15
-#453
-0.
-01
-#454
 1'
-#455
-04
-05
-#456
-11
 #500
 0!
 #501
-10
+1-
 #502
-0/
-#503
-1.
+0'
 #550
 1!
 #551
-00
-0'
+0-
 #552
-1/
-14
-15
-#553
-0.
-01
-#554
 1'
-#555
-04
-05
-#556
-11
 #600
 0!
 #601
-10
+1-
 #602
-0/
-#603
-1.
+0'
 #650
 1!
 #651
-00
-0'
+0-
 #652
-1/
-14
-15
-#653
-0.
-01
-#654
 1'
-#655
-04
-05
-#656
-11
 #700
 0!
 #701
-10
+1-
 #702
-0/
-#703
-1.
+0'
 #750
 1!
 #751
-00
-0'
+0-
 #752
-1/
-14
-15
-#753
-0.
-01
-#754
 1'
-#755
-04
-05
-#756
-11
 #800
 0!
 #801
-10
+1-
 #802
-0/
-#803
-1.
+0'
 #830
 1"
-#831
-06
-#832
-13
-#833
-0(
 #850
 1!
 #851
-00
-0'
+0-
 #852
-1/
-14
-15
-#853
-0.
-02
-#854
 1'
-1$
+#853
+0,
+#854
+1+
 #855
-04
-05
-07
+0*
 #856
-12
+1)
 #900
 0!
 #901
-10
+1-
 #902
-0/
+0&
 #903
-1.
+1$
+#904
+0(
 #950
 1!
 #951
-00
-0'
+0-
 #952
-1/
-14
-15
-#953
-0.
-02
-#954
-1'
-#955
-04
-05
-#956
-12
+1&
 #1000
 0!
 #1001
-10
+1-
 #1002
-0/
-#1003
-1.
+0&
 #1050
 1!
 #1051
-00
-0'
+0-
 #1052
-1/
-14
-15
-#1053
-0.
-02
-#1054
-1'
-#1055
-04
-05
-#1056
-12
+1&
 #1100
 0!
 #1101
-10
+1-
 #1102
-0/
-#1103
-1.
+0&
 #1150
 1!
 #1151
-00
-0'
+0-
 #1152
-1/
-14
-15
-#1153
-0.
-02
-#1154
-1'
-#1155
-04
-05
-#1156
-12
+1&
 #1160
 1#
 #1161
-0-
-0&
-#1162
-1,
-16
-14
-1%
-#1163
-0+
-03
-02
-#1164
-1*
-12
-1(
-#1165
-0)
-01
-#1166
-1&
-17
-#1167
-06
-04
 0%
+#1162
+1-
+1*
+#1163
+0&
+0)
+0'
+#1164
+1&
+1(
+1,
+#1165
 0$
-#1168
-13
-11
-#1169
-0(
+0+
 #1200
 0!
-#1201
-10
-#1202
-0/
-#1203
-1.
 #1250
 1!
-#1251
-00
-0'
-#1252
-1/
-14
-15
-#1253
-0.
-02
-#1254
-1'
-1$
-#1255
-04
-05
-07
-#1256
-12
 #1300
 0!
-#1301
-10
-#1302
-0/
-#1303
-1.
 #1350
 1!
-#1351
-00
-0'
-#1352
-1/
-14
-15
-#1353
-0.
-02
-#1354
-1'
-#1355
-04
-05
-#1356
-12
 #1395
 0"
-#1396
-16
-#1397
-03
-#1398
-1(
 #1400
 0!
-#1401
-10
-#1402
-0/
-#1403
-1.
 #1450
 1!
-#1451
-00
-0'
-#1452
-1/
-14
-15
-#1453
-0.
-01
-#1454
-1'
-17
-#1455
-04
-05
-0$
-#1456
-11
 #1500
 0!
-#1501
-10
-#1502
-0/
-#1503
-1.
 #1550
 1!
-#1551
-00
-0'
-#1552
-1/
-14
-15
-#1553
-0.
-01
-#1554
-1'
-#1555
-04
-05
-#1556
-11
 #1600
 0!
-#1601
-10
-#1602
-0/
-#1603
-1.
 #1650
 1!
-#1651
-00
-0'
-#1652
-1/
-14
-15
-#1653
-0.
-01
-#1654
-1'
-#1655
-04
-05
-#1656
-11
 #1700
 0!
-#1701
-10
-#1702
-0/
-#1703
-1.
 #1750
 1!
-#1751
-00
-0'
-#1752
-1/
-14
-15
-#1753
-0.
-01
-#1754
-1'
-#1755
-04
-05
-#1756
-11
 #1795
 1"
-#1796
-06
-#1797
-13
-#1798
-0(
 #1800
 0!
-#1801
-10
-#1802
-0/
-#1803
-1.
 #1850
 1!
-#1851
-00
-0'
-#1852
-1/
-14
-15
-#1853
-0.
-02
-#1854
-1'
-1$
-#1855
-04
-05
-07
-#1856
-12
 #1900
 0!
-#1901
-10
-#1902
-0/
-#1903
-1.
 #1950
 1!
-#1951
-00
-0'
-#1952
-1/
-14
-15
-#1953
-0.
-02
-#1954
-1'
-#1955
-04
-05
-#1956
-12
 #2000
 0!
-#2001
-10
-#2002
-0/
-#2003
-1.
 #2050
 1!
-#2051
-00
-0'
-#2052
-1/
-14
-15
-#2053
-0.
-02
-#2054
-1'
-#2055
-04
-05
-#2056
-12
 #2095
 0#
 #2096
-1-
+1%
 #2097
-0,
+0-
 #2098
-1+
+1'
 #2099
-0*
+0,
 #2100
-1)
+1+
 0!
 #2101
-10
+0*
+1-
 #2102
-0/
+1)
 #2103
-1.
+0&
+#2104
+1$
+#2105
+0(
 #2150
 1!
 #2151
-00
-0'
+0-
 #2152
-1/
-14
-15
-#2153
-0.
-02
-#2154
-1'
-#2155
-04
-05
-#2156
-12
+1&
 #2195
 0"
 #2196
-16
+1,
 #2197
-03
+0+
 #2198
-1(
+1*
+#2199
+0)
 #2200
 0!
 #2201
-10
+1-
 #2202
-0/
+0'
 #2203
-1.
+1(
+#2204
+0$
 #2250
 1!
 #2251
-00
-0'
+0-
 #2252
-1/
-14
-15
-#2253
-0.
-01
-#2254
 1'
-17
-#2255
-04
-05
-0$
-#2256
-11
 #2300
 0!
 #2301
-10
+1-
 #2302
-0/
-#2303
-1.
+0'
 #2350
 1!
 #2351
-00
-0'
+0-
 #2352
-1/
-14
-15
-#2353
-0.
-01
-#2354
 1'
-#2355
-04
-05
-#2356
-11
 #2400
 0!
 #2401
-10
+1-
 #2402
-0/
-#2403
-1.
+0'
 #2450
 1!
 #2451
-00
-0'
+0-
 #2452
-1/
-14
-15
-#2453
-0.
-01
-#2454
 1'
-#2455
-04
-05
-#2456
-11
 #2500
 0!
 #2501
-10
+1-
 #2502
-0/
-#2503
-1.
+0'
 #2550
 1!
 #2551
-00
-0'
+0-
 #2552
-1/
-14
-15
-#2553
-0.
-01
-#2554
 1'
-#2555
-04
-05
-#2556
-11
 #2595
 1"
 #2596
-06
+0,
 #2597
-13
+1+
 #2598
-0(
+0*
+#2599
+1)
 #2600
 0!
 #2601
-10
+1-
 #2602
-0/
+0&
 #2603
-1.
+1$
+#2604
+0(
 #2650
 1!
 #2651
-00
-0'
+0-
 #2652
-1/
-14
-15
-#2653
-0.
-02
-#2654
-1'
-1$
-#2655
-04
-05
-07
-#2656
-12
+1&
 #2700
 0!
 #2701
-10
+1-
 #2702
-0/
-#2703
-1.
+0&
 #2750
 1!
 #2751
-00
-0'
+0-
 #2752
-1/
-14
-15
-#2753
-0.
-02
-#2754
-1'
-#2755
-04
-05
-#2756
-12
+1&
 #2800
 0!
 #2801
-10
+1-
 #2802
-0/
-#2803
-1.
+0&
 #2845
 0"
 #2846
-16
-#2847
-03
-#2848
-1(
+1,
 #2850
 1!
 #2851
-00
-0'
+0-
 #2852
-1/
-14
-15
+1&
 #2853
-0.
-01
+0+
 #2854
-1'
-17
+1*
 #2855
-04
-05
-0$
-#2856
-11
+0)
 #2900
 0!
 #2901
-10
+1-
 #2902
-0/
+0'
 #2903
-1.
+1(
+#2904
+0$
 #2950
 1!
 #2951
-00
-0'
+0-
 #2952
-1/
-14
-15
-#2953
-0.
-01
-#2954
 1'
-#2955
-04
-05
-#2956
-11
 #3000
 0!
 #3001
-10
+1-
 #3002
-0/
-#3003
-1.
+0'
 #3050
 1!
 #3051
-00
-0'
+0-
 #3052
-1/
-14
-15
-#3053
-0.
-01
-#3054
 1'
-#3055
-04
-05
-#3056
-11
 #3100
 0!
 #3101
-10
+1-
 #3102
-0/
-#3103
-1.
+0'
 #3150
 1!
 #3151
-00
-0'
+0-
 #3152
-1/
-14
-15
-#3153
-0.
-01
-#3154
 1'
-#3155
-04
-05
-#3156
-11
 #3200
 0!
 #3201
-10
+1-
 #3202
-0/
-#3203
-1.
+0'
 #3250
 1!
 #3251
-00
-0'
+0-
 #3252
-1/
-14
-15
-#3253
-0.
-01
-#3254
 1'
-#3255
-04
-05
-#3256
-11
 #3300
 0!
 #3301
-10
+1-
 #3302
-0/
-#3303
-1.
+0'
 #3315
 1"
-#3316
-06
-#3317
-13
-#3318
-0(
 #3350
 1!
 #3351
-00
-0'
+0-
 #3352
-1/
-14
-15
-#3353
-0.
-02
-#3354
 1'
-1$
+#3353
+0,
+#3354
+1+
 #3355
-04
-05
-07
+0*
 #3356
-12
+1)
 #3400
 0!
 #3401
-10
+1-
 #3402
-0/
+0&
 #3403
-1.
+1$
+#3404
+0(
 #3450
 1!
 #3451
-00
-0'
+0-
 #3452
-1/
-14
-15
-#3453
-0.
-02
-#3454
-1'
-#3455
-04
-05
-#3456
-12
+1&
 #3500
 0!
 #3501
-10
+1-
 #3502
-0/
-#3503
-1.
+0&
 #3525
 0"
 #3526
-16
-#3527
-03
-#3528
-1(
+1,
 #3550
 1!
 #3551
-00
-0'
+0-
 #3552
-1/
-14
-15
+1&
 #3553
-0.
-01
+0+
 #3554
-1'
-17
+1*
 #3555
-04
-05
-0$
-#3556
-11
+0)
 #3600
 0!
 #3601
-10
+1-
 #3602
-0/
+0'
 #3603
-1.
+1(
+#3604
+0$
 #3650
 1!
 #3651
-00
-0'
+0-
 #3652
-1/
-14
-15
-#3653
-0.
-01
-#3654
 1'
-#3655
-04
-05
-#3656
-11
 #3700
 0!
 #3701
-10
+1-
 #3702
-0/
-#3703
-1.
+0'
 #3750
 1!
 #3751
-00
-0'
+0-
 #3752
-1/
-14
-15
-#3753
-0.
-01
-#3754
 1'
-#3755
-04
-05
-#3756
-11
 #3800
 0!
 #3801
-10
+1-
 #3802
-0/
-#3803
-1.
+0'
 #3850
 1!
 #3851
-00
-0'
+0-
 #3852
-1/
-14
-15
-#3853
-0.
-01
-#3854
 1'
-#3855
-04
-05
-#3856
-11
 #3872
 1"

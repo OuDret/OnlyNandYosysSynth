@@ -7,42 +7,22 @@ module counter1bit(clk, rst, count);
   wire _00_;
   (* src = "counter1bit.v:7|all2nand.v:18" *)
   wire _01_;
-  (* src = "counter1bit.v:7|all2nand.v:21" *)
-  wire _02_;
-  (* src = "counter1bit.v:7|all2nand.v:24" *)
-  wire _03_;
-  (* src = "counter1bit.v:7|all2nand.v:24" *)
-  wire _04_;
-  (* src = "counter1bit.v:7|all2nand.v:22" *)
-  wire _05_;
-  (* src = "counter1bit.v:7|all2nand.v:15" *)
-  wire _06_;
-  (* src = "counter1bit.v:7|all2nand.v:16" *)
-  wire _07_;
-  (* src = "counter1bit.v:7|all2nand.v:26" *)
-  wire _08_;
-  (* src = "counter1bit.v:7|all2nand.v:26" *)
-  wire _09_;
-  (* src = "counter1bit.v:7|all2nand.v:26" *)
-  wire _10_;
-  (* src = "counter1bit.v:7|all2nand.v:26" *)
-  wire _11_;
-  (* src = "counter1bit.v:7|all2nand.v:27" *)
-  wire _12_;
-  (* src = "counter1bit.v:7|all2nand.v:27" *)
-  wire _13_;
-  (* src = "counter1bit.v:7|all2nand.v:27" *)
-  wire _14_;
-  (* src = "counter1bit.v:7|all2nand.v:27" *)
-  wire _15_;
   (* src = "counter1bit.v:7|all2nand.v:17" *)
-  wire _16_;
+  wire _02_;
+  (* src = "counter1bit.v:7|all2nand.v:19" *)
+  wire _03_;
+  (* src = "counter1bit.v:7|all2nand.v:20" *)
+  wire _04_;
+  (* src = "counter1bit.v:7|all2nand.v:21" *)
+  wire _05_;
   (* src = "counter1bit.v:7|all2nand.v:24" *)
-  wire _17_;
-  (* src = "counter1bit.v:7|all2nand.v:25" *)
-  wire _18_;
-  (* src = "counter1bit.v:7|all2nand.v:25" *)
-  wire _19_;
+  wire _06_;
+  (* src = "counter1bit.v:7|all2nand.v:22" *)
+  wire _07_;
+  (* src = "counter1bit.v:7|all2nand.v:23" *)
+  wire _08_;
+  (* src = "counter1bit.v:7|all2nand.v:15" *)
+  wire _09_;
   (* src = "counter1bit.v:2" *)
   input clk;
   (* src = "counter1bit.v:4" *)
@@ -51,149 +31,79 @@ module counter1bit(clk, rst, count);
   input rst;
   (* module_not_derived = 32'd1 *)
   (* src = "all2nand.v:3" *)
-  NAND _20_ (
+  NAND _10_ (
     .A(count),
     .B(count),
     .Y(_00_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:53|all2nand.v:3" *)
-  NAND _21_ (
-    .A(_05_),
-    .B(_05_),
-    .Y(_16_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:39|all2nand.v:3" *)
-  NAND _22_ (
-    .A(_12_),
-    .B(_12_),
-    .Y(_13_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:40|all2nand.v:3" *)
-  NAND _23_ (
-    .A(_13_),
-    .B(_13_),
-    .Y(_14_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:41|all2nand.v:3" *)
-  NAND _24_ (
-    .A(_14_),
-    .B(_14_),
-    .Y(_15_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:43|all2nand.v:3" *)
-  NAND _25_ (
-    .A(_18_),
-    .B(_18_),
-    .Y(_19_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:47|all2nand.v:3" *)
-  NAND _26_ (
-    .A(_02_),
-    .B(_02_),
-    .Y(_05_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:30|all2nand.v:3" *)
-  NAND _27_ (
-    .A(clk),
-    .B(clk),
-    .Y(_08_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:31|all2nand.v:3" *)
-  NAND _28_ (
-    .A(_08_),
-    .B(_08_),
+  (* src = "counter1bit.v:7|all2nand.v:26|all2nand.v:3" *)
+  NAND _11_ (
+    .A(rst),
+    .B(rst),
     .Y(_09_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:32|all2nand.v:3" *)
-  NAND _29_ (
+  (* src = "counter1bit.v:7|all2nand.v:27" *)
+  NAND _12_ (
     .A(_09_),
-    .B(_09_),
-    .Y(_10_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:34|all2nand.v:3" *)
-  NAND _30_ (
-    .A(_17_),
-    .B(_17_),
-    .Y(_03_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:37|all2nand.v:3" *)
-  NAND _31_ (
-    .A(rst),
-    .B(rst),
-    .Y(_11_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:38|all2nand.v:3" *)
-  NAND _32_ (
-    .A(_11_),
-    .B(_11_),
-    .Y(_12_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:54" *)
-  NAND _33_ (
-    .A(_04_),
-    .B(_05_),
-    .Y(_06_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:55" *)
-  NAND _34_ (
-    .A(_04_),
-    .B(_16_),
-    .Y(_07_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:56" *)
-  NAND _35_ (
-    .A(_06_),
-    .B(_01_),
-    .Y(count)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:57" *)
-  NAND _36_ (
-    .A(_07_),
-    .B(count),
+    .B(clk),
     .Y(_01_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:33" *)
-  NAND _37_ (
-    .A(_10_),
-    .B(clk),
-    .Y(_17_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:42" *)
-  NAND _38_ (
-    .A(_15_),
-    .B(rst),
-    .Y(_18_)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:46" *)
-  NAND _39_ (
-    .A(_18_),
-    .B(_00_),
+  (* src = "counter1bit.v:7|all2nand.v:28" *)
+  NAND _13_ (
+    .A(_00_),
+    .B(_07_),
     .Y(_02_)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "counter1bit.v:7|all2nand.v:50" *)
-  NAND _40_ (
-    .A(_18_),
-    .B(_17_),
+  (* src = "counter1bit.v:7|all2nand.v:29" *)
+  NAND _14_ (
+    .A(_02_),
+    .B(_08_),
+    .Y(_03_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter1bit.v:7|all2nand.v:30" *)
+  NAND _15_ (
+    .A(_03_),
+    .B(_09_),
     .Y(_04_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter1bit.v:7|all2nand.v:31" *)
+  NAND _16_ (
+    .A(_04_),
+    .B(_04_),
+    .Y(_05_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter1bit.v:7|all2nand.v:32" *)
+  NAND _17_ (
+    .A(_04_),
+    .B(_01_),
+    .Y(_07_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter1bit.v:7|all2nand.v:33" *)
+  NAND _18_ (
+    .A(_05_),
+    .B(_01_),
+    .Y(_08_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter1bit.v:7|all2nand.v:34" *)
+  NAND _19_ (
+    .A(_07_),
+    .B(count),
+    .Y(_06_)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "counter1bit.v:7|all2nand.v:35" *)
+  NAND _20_ (
+    .A(_08_),
+    .B(_06_),
+    .Y(count)
   );
 endmodule

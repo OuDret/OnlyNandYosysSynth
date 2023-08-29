@@ -1,3 +1,1 @@
-d-FF circuitjs(noedgedetection).txt contains the schematic of DFF with syncron reset implemented. You can load in online tool https://www.falstad.com/circuit/circuitjs.html to visualize and test. 
-
-The flip-flop used in ../all2nand.v has asyncron reset on it's rising edge. C signal also is clock rising edge, but I thought this preliminar schematic i did could help you figuring all how the dff cell works.
+in circuitverse you can find the D-type Flip Flop implemented scheme. Import it in https://circuitverse.org/simulator to play with it.
